@@ -1,7 +1,9 @@
 .container {
   padding: 0 2rem;
 }
-
+.container_f {
+  padding: 0 0rem;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -113,4 +115,14 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.header_top{
+  width: 100%;
+  height: 42px;
+  background-color: #8dbd8d;
+}
+.header_title{
+  color: #8dbd8d;
+  font-weight: 700;
+  font-size:20px;
 }

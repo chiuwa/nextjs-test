@@ -16,7 +16,8 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-Neutral-50 shadow-lg shadow-[0_20px_60px_-15px_rgba(143,189,127,0.3)] " >
+    <div className='sticky top-10 z-40 bg-white' >
+    <Disclosure as="nav" className="bg-Neutral-50 shadow-lg shadow-[0_20px_60px_-15px_rgba(143,189,127,0.5)] relative z-50 " >
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-1 ">
@@ -163,5 +164,6 @@ export default function Navbar() {
         </>
       )}
     </Disclosure>
+    </div>
   )
 }

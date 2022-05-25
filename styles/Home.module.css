@@ -129,3 +129,8 @@
 .product_carousel_main{
   max-width: 100% ;
 }
+
+.custom_a{
+  color: #8dbd8d;
+  text-decoration: underline;
+}

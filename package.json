@@ -12,9 +12,11 @@
     "@headlessui/react": "^1.6.2",
     "@heroicons/react": "^1.0.6",
     "carousel-react-rcdev": "0.0.4",
+    "flowbite": "^1.4.7",
     "next": "^12.1.6",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

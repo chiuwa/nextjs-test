@@ -5,7 +5,7 @@ const ProductCarousel = () => {
     return (
         <div >
             <div className={styles.container_f + " flex items-center justify-between  lg:m-12 md:m-6 sm:m-3 mt-6 "}>
-                <div className='text-[36px] font-bold'>All Categories</div>
+                <div className='text-[16px] lg:text-[36px] md:text-[28px] font-bold'>All Categories</div>
                 <div><a href='#' className={styles.custom_a}>Show All &gt;&gt; </a></div>
             </div>
 

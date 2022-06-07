@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar'
 import ProductCarousel from '../components/ProductCarousel'
 import styles from '../styles/Home.module.css'
 import dynamic from "next/dynamic"
+import Jetso from '../components/Jetso'
 
 
 const NextJsCarousel = dynamic(() => import("../components/Carousel"), {
@@ -28,6 +29,7 @@ export default function Home() {
       <div className={styles.container}>
       <Banner/>
       <ProductCarousel/>
+      <Jetso/>
       </div>
 
     </div>
